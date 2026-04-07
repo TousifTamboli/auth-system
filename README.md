@@ -46,6 +46,7 @@ A secure and scalable authentication system built using modern web technologies.
 
 ## 📁 Project Structure
 
+```text
 auth-system/
 │── src/
 │   ├── controllers/
@@ -56,6 +57,7 @@ auth-system/
 │── prisma/
 │── .env
 │── package.json
+```
 
 ---
 
@@ -77,26 +79,36 @@ auth-system/
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/YOUR_USERNAME/auth-system.git
+```
 
 ### 2. Install dependencies
 
+```bash
 npm install
+```
 
 ### 3. Setup environment variables
 
 Create a .env file:
 
+```env
 DATABASE_URL=your_postgres_url
 JWT_SECRET=your_secret_key
+```
 
 ### 4. Run database migrations
 
+```bash
 npx prisma migrate dev
+```
 
 ### 5. Start server
 
+```bash
 npm run dev
+```
 
 ---
 
